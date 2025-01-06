@@ -33,20 +33,22 @@ Please use `Ubuntu 20.04` for environment setting.
 
 ## Dataset preparation
 
-1. Data download
+1. Data download:
    - [AbdomenMRI(U-Mamba)](https://arxiv.org/abs/2401.04722)
    - [BTCV](https://www.synapse.org/Synapse:syn3193805/wiki/89480)
    - [ACDC](https://www.creatis.insa-lyon.fr/Challenge/acdc/)
    - [Endovis17]()
 
-2. Setting up paths
+2. Setting up paths:
+   
    Please refer to [setting_up_paths(nnUNet)](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md)
    
-3. Dataset conversion
+3. Dataset conversion:
+   
    Conversion via specific programs:
    e.g. ```python Dataset027_ACDC.py``` for ACDC dataset or download from ours [Baidu]()
 
-4. Preprocessing
+4. Preprocessing:
    ```bash
    nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
    ```
