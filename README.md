@@ -19,5 +19,6 @@ pip install monai
 
 3.Install [Mamba](https://github.com/state-spaces/mamba) : 
 ```
-pip install causal-conv1d` and `pip install mamba-ssm
+pip install causal-conv1d
+pip install mamba-ssm
 ```
