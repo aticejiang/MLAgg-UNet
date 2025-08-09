@@ -1,4 +1,27 @@
-# MLAgg-UNet: Advancing Medical Image Segmentation with Efficient Transformer and Mamba-Inspired Multi-Scale Sequence
+<br />
+<p align="center">
+  <h1 align="center">MLAgg-UNet: Advancing Medical Image Segmentation with Efficient Transformer and Mamba-Inspired Multi-Scale Sequence</h1>
+  <p align="center">
+    <br />
+    <strong>Jiaxu Jiang</strong></a>
+    ·
+    <strong>Sen Lei</strong></a>
+    ·
+    <strong>Heng-Chao Li</strong></a>
+    ·
+    <strong>Yongjian Sun</strong></a>
+  </p>
+
+  <p align="center">
+    <a href='https://xplorestaging.ieee.org/document/11119287'>
+      <img src='https://img.shields.io/badge/Paper-IEEE-blue'>
+    </a>
+  </p>
+<br />
+
+<div  align="center">    
+ <img src="./assets/GA.png" width = 1200  align=center />
+</div>
 
 The code will be released after the review.
 
@@ -68,3 +91,16 @@ nnUNetv2_train DATASET_ID 2d_bsXX 0 -tr
 Thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](https://github.com/state-spaces/mamba) and [U-mamba](https://github.com/bowang-lab/U-Mamba) for making their valuable code publicly available.
 
 ## Citation
+If you find our work useful in your research, please consider citing:
+```
+@ARTICLE{11119287,
+  author={Jiang, Jiaxu and Lei, Sen and Li, Heng–Chao and Sun, Yongjian},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={MLAgg-UNet: Advancing Medical Image Segmentation with Efficient Transformer and Mamba-Inspired Multi-Scale Sequence}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Transformers;Image segmentation;Computational modeling;Medical diagnostic imaging;Computational complexity;Feature extraction;Computer architecture;Computational efficiency;Visualization;Buildings;Medical Image Segmentation;Multi-Scale Feature Learning;Transformer;Vision State Space Models},
+  doi={10.1109/JBHI.2025.3596648}}
+```
