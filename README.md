@@ -27,7 +27,7 @@
 
 ## Requirements: 
 
-Please use `Ubuntu 20.04` for environment setting.
+Please use `Ubuntu 20.04` for environment setting. In 'Windows', it could work if mamba-ssm available. 
 
 1. python 3.10 + [torch](https://pytorch.org/get-started/locally/) 2.0.0 + torchvision 0.15.0 (cuda 11.7)
    ```bash
