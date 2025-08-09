@@ -86,7 +86,7 @@ or using custom plans
 ```bash
 nnUNetv2_train DATASET_ID PLAN_NAME 0 -tr NAME_OF_TRAINER
 ```
-more information for nnUNetv2_train
+more information for `nnUNetv2_train`
 ```bash
 nnUNetv2_train -h
 ```
