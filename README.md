@@ -33,7 +33,7 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
    ```bash
    conda create -n mlaggunet python=3.10
    conda activate mlaggunet
-   pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1
+   pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
    ```
 
 2. Clone this repository
