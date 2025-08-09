@@ -43,16 +43,16 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
    pip install -e .
    ```
 
-3. Install [monai](https://github.com/Project-MONAI/MONAI):
-   ```bash
-   pip install monai
-   ``` 
-
-4. Install [Mamba](https://github.com/state-spaces/mamba) :
+3. Install [Mamba](https://github.com/state-spaces/mamba) :
    ```bash
    pip install causal-conv1d
    pip install mamba-ssm
    ```
+
+4. (optional) Install [flash attention](https://github.com/Dao-AILab/flash-attention):
+   ```bash
+   pip install flash-attn --no-build-isolation
+   ``` 
 
 ## Dataset preparation
 
