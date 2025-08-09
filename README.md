@@ -21,7 +21,8 @@
 
 <div  align="center">    
  <img src="./assets/GA.png" width = 960  align=center />
-  <em>Overview of the MLAgg-UNet architecture. MLAgg-UNet employs the encoder-decoder framework with Mamba-Like Aggregated Attention (MLAgg) blocks in the endocer, together with Multi-Scale Mamba Module (MSMM) with Implicit Causality in skip connections.</em>
+ <br>
+ <em>Overview of the MLAgg-UNet architecture. MLAgg-UNet employs the encoder-decoder framework with Mamba-Like Aggregated Attention (MLAgg) blocks in the endocer, together with Multi-Scale Mamba Module (MSMM) with Implicit Causality in skip connections.</em>
 </div>
 
 
