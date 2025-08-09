@@ -78,13 +78,17 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
    ```
 
 ## Train models
-
+default plan of nnunet
 ```bash
-nnUNetv2_train DATASET_ID 2d 0 -tr 
+nnUNetv2_train DATASET_ID 2d 0 -tr NAME_OF_TRAINER
 ```
-or using custom bath size
+or using custom plans
 ```bash
-nnUNetv2_train DATASET_ID 2d_bsXX 0 -tr
+nnUNetv2_train DATASET_ID PLAN_NAME 0 -tr NAME_OF_TRAINER
+```
+more information for nnUNetv2_train
+```bash
+nnUNetv2_train -h
 ```
 
 ## Acknowledgements
