@@ -2,15 +2,15 @@ from setuptools import setup, find_namespace_packages
 
 setup(name='nnunetv2',
       packages=find_namespace_packages(include=["nnunetv2", "nnunetv2.*"]),
-      version='2.1.1',
+      version='2.1',
       description='nnU-Net. Framework for out-of-the box biomedical image segmentation.',
       url='https://github.com/MIC-DKFZ/nnUNet',
       author='Helmholtz Imaging Applied Computer Vision Lab, Division of Medical Image Computing, German Cancer Research Center',
       author_email='f.isensee@dkfz-heidelberg.de',
       license='Apache License Version 2.0, January 2004',
-      python_requires=">=3.10",
+      python_requires=">=3.9",
       install_requires=[
-          "torch>=2.0.0",
+          "torch>1.12",
           "acvl-utils>=0.2",
           "dynamic-network-architectures>=0.2",
           "tqdm",
@@ -19,7 +19,7 @@ setup(name='nnunetv2',
           "medpy",
           "scipy",
           "batchgenerators>=0.25",
-          "numpy",
+          "numpy==1.26",
           "scikit-learn",
           "scikit-image>=0.19.3",
           "SimpleITK>=2.2.1",
@@ -33,13 +33,13 @@ setup(name='nnunetv2',
           "imagecodecs",
           "yacs",
           "monai==1.3.0",
-          "opencv-python"
+          'ml_collections==0.1.1'
       ],
       entry_points={
           'console_scripts': [
               'nnUNetv2_plan_and_preprocess = nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:plan_and_preprocess_entry',  # api available
               'nnUNetv2_extract_fingerprint = nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:extract_fingerprint_entry',  # api available
-              'nnUNetv2_plan_experiment = nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:plan_experiment_entry',  # api available
+              'nnUNetv2_plan_experiment = nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:preprocess_entry',  # api available
               'nnUNetv2_preprocess = nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:preprocess_entry',  # api available
               'nnUNetv2_train = nnunetv2.run.run_training:run_training_entry',  # api available
               'nnUNetv2_predict_from_modelfolder = nnunetv2.inference.predict_from_raw_data:predict_entry_point_modelfolder',  # api available
