@@ -77,18 +77,24 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
    nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
    ```
 
-## Train models
+## Models training
 default plan of nnunet
 ```bash
-nnUNetv2_train DATASET_ID 2d 0 -tr NAME_OF_TRAINER
+nnUNetv2_train DATASET_ID PLAN_NAME 0 -tr NAME_OF_TRAINER
 ```
 or using custom plans
 ```bash
-nnUNetv2_train DATASET_ID PLAN_NAME 0 -tr NAME_OF_TRAINER
+nnUNetv2_train 702 2d_bs10 0 -tr nnUNetTrainer_MLAgg_2D_dt_MS
 ```
 more information for `nnUNetv2_train`
 ```bash
 nnUNetv2_train -h
+```
+
+## Evaluation
+```bash
+python ./evaluation/abdomen_DSC_Eval.py --gt_path GT_PATH --seg_path SEG_PATH --save_path SEG_PATH
+python ./evaluation/abdomen_NSD_Eval.py --gt_path .\Data\nnUNet_raw\Dataset702_AbdomenMRI\labelsTs --seg_path .\Data\nnUNet_results\Dataset702_AbdomenMRI\nnUNetTrainer_nnUNetTrainer_MLAgg_2D_dt_MS__nnUNetPlans__2d_bs10\fold_0\validation --save_path .\Data\nnUNet_results\Dataset702_AbdomenMRI\nnUNetTrainer_nnUNetTrainer_MLAgg_2D_dt_MS__nnUNetPlans__2d_bs10\fold_0\validation
 ```
 
 ## Acknowledgements
