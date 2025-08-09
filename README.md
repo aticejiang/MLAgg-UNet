@@ -39,7 +39,7 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
 2. Clone this repository
    ```bash
    git clone https://github.com/aticejiang/MLAgg-UNet
-   cd mlagg
+   cd MLAgg-UNet/mlagg
    pip install -e .
    ```
 
