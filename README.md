@@ -27,7 +27,7 @@
 
 ## Requirements: 
 
-Please use `Ubuntu 20.04` for environment setting. In 'Windows', it could work if mamba-ssm available. 
+Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work if mamba-ssm available. 
 
 1. python 3.10 + [torch](https://pytorch.org/get-started/locally/) 2.0.0 + torchvision 0.15.0 (cuda 11.7)
    ```bash
@@ -39,7 +39,7 @@ Please use `Ubuntu 20.04` for environment setting. In 'Windows', it could work i
 2. Clone this repository
    ```bash
    git clone https://github.com/aticejiang/MLAgg-UNet
-   cd MLAgg-UNet
+   cd mlagg
    pip install -e .
    ```
 
