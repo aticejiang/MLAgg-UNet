@@ -70,7 +70,7 @@ Please use `Ubuntu 20.04` for environment setting. In `Windows`, it could work i
 3. Dataset conversion:
    
    Conversion via specific programs:
-   e.g. ```python Dataset027_ACDC.py``` for ACDC dataset or download from ours [Baidu]()
+   e.g. ```python Dataset027_ACDC.py``` for ACDC dataset or download from ours [🤗 HuggingFace](https://huggingface.co/datasets/deleet/nnUNet_raw_Datasets)
 
 4. Preprocessing:
    ```bash
